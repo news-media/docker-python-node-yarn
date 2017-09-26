@@ -13,3 +13,5 @@ RUN \
   apt-get update && \
   apt-get install -yqq nodejs yarn && \
   rm -rf /var/lib/apt/lists/*
+
+RUN pip install --no-cache-dir pipenv
