@@ -1,4 +1,4 @@
-FROM python:3.6
+FROM python:3.6-stretch
 MAINTAINER Gaganpreet Arora <gaganpreet.arora@gmail.com>
 
 # Source: https://github.com/nikolaik/docker-python-nodejs/blob/master/Dockerfile
